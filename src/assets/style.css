@@ -150,6 +150,7 @@ hr {
     background-color: blue;
     color: white;
     border: none;
+    cursor: pointer;
 }
 
 .heading h2 {
