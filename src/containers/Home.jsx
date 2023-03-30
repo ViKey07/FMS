@@ -11,6 +11,7 @@ import FImg from '../assets/img/7.png';
 import CImg1 from '../assets/img/clg_img1.png';
 import CImg2 from '../assets/img/clg_img2.png';
 import CImg3 from '../assets/img/clg_img3.png';
+import NewsLetter from './SignLetter.jsx';
 
 
 const Home = () => {
@@ -75,6 +76,8 @@ const Home = () => {
                     <img src={CImg3} alt="" className="c-img" />
                 </div>
             </section>
+
+            <NewsLetter />
         </>
     );
 };
