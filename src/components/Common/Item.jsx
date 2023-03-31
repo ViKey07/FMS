@@ -49,7 +49,7 @@ const Item = ({ item }) => {
             </div>
             <div className="item-bottom">
                 <div className="item-price">
-                    <h5>{item.name}</h5>
+                    <p className='i-title'>{item.name}</p>
                     <p className='i-price'>${item.price}</p>
                 </div>
                 {particularCart && particularCart.quantity > 0 ? (
@@ -63,7 +63,7 @@ const Item = ({ item }) => {
                         </span>
                     </div>
                 ) : (
-                    <button onClick={clickAddCart}>
+                    <button className='add-cart' onClick={clickAddCart}>
                         ADD TO CART
                     </button>
                 )}

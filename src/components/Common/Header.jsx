@@ -35,9 +35,9 @@ export default function Header() {
                 </div>
                 <nav>
                     <ul className="navbar-links">
-                        <li><a href="/">Home</a></li>
-                        <li><a href="/signin">About</a></li>
-                        <li><a href="/contact">Contact</a></li>
+                        <li><a className='nav-l' href="/">Home</a></li>
+                        <li><a className='nav-l' href="/signin">About</a></li>
+                        <li><a className='nav-l' href="/contact">Contact</a></li>
                     </ul>
 
                     {checkUser ? (
