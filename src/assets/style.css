@@ -80,6 +80,11 @@ header {
     font-weight: bold;
     text-decoration: none;
   }
+
+  .cart-a {
+    display: flex;
+    justify-content: center;
+  }
   
   .cart img {
     width: 30px;
@@ -297,19 +302,24 @@ header {
   /***************************
 ****Grid Categories ******
 ****************************/
+.categories-whole {
+    display: flex;
+    justify-content: center;
+}
+
 .categories{
     display: flex;
     margin-top: 4%;
   }
   
   .one-img{
-    height: 77vh;
+    height: 70vh;
   }
   
   .two {
     align-items: center;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-direction: column;
     width: 100%;
   }
@@ -320,7 +330,7 @@ header {
   
   .product-list{
     text-align: center;
-    margin: 3%;
+    margin: 2%;
     text-decoration: none;
     border-bottom: thin solid gray;
   }
@@ -415,6 +425,12 @@ header {
   
   .new-latest-img .c-img {
     width: 30%;
+    border: 1px solid rgb(225, 225, 225);
+    transition: transform 0.5s;
+  }
+
+  .c-img:hover {
+    transform: scale(1.2);
   }
   
   .f-img {
@@ -483,11 +499,11 @@ header {
   }
   
   .item-container .item-grid .item-bottom .added-cart {
-    background-color: #59af0f;
+    background-color: maroon;
     color: #fff;
     padding: 0.5em 1em;
+    margin-top: 2em;
     border: 0;
-    border-radius: 0.5em;
     cursor: pointer;
   }
   
@@ -672,7 +688,7 @@ header {
     gap: 30px;
 }
 .foot button {
-    background-color: #59af0f;
+    background-color: maroon;
     padding: 10px 20px;
     margin-right: 40px;
     border: 0;

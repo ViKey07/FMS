@@ -49,12 +49,12 @@ export default function Header() {
                             <img src={user} alt="user" />
                         </a>
                     )}
-                    {checkUser && (
-                        <a href="Cart">
+                    {/* {checkUser && (
+                        <a className='cart-a' href="Cart">
                             {' '}
                             <img src={cart} alt="" />
                         </a>
-                    )}
+                    )} */}
                 </nav>
             </header>
         </>

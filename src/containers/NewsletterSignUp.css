@@ -17,24 +17,23 @@
 
 label {
   margin-right: 10px;
+  width: 50%;
 }
 
 input {
-  padding: 10px;
-  border: none;
-  border-radius: 5px;
-  width: 100%;
-  max-width: 300px;
+    padding: 10px;
+    border: none;
+    width: 100%;
+    max-width: 300px;
 }
 
 button.submit-button {
   padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  background-color: #3f51b5;
-  color: white;
-  cursor: pointer;
-  margin-left: 10px;
+    border: none;
+    background-color: #3f51b5;
+    color: white;
+    cursor: pointer;
+    width: 30%;
 }
 
 button.submit-button:hover {
