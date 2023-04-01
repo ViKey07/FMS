@@ -3,7 +3,7 @@ import { signOut } from '../../reducks/users/operations';
 import { useDispatch } from 'react-redux';
 import { push } from 'connected-react-router';
 import cart from '../../assets/img/cart.svg';
-import logo from '../../assets/img/logo_black1.png';
+import logo from '../../assets/img/blue_logo.png';
 import user from '../../assets/img/user.svg';
 export default function Header() {
     const dispatch = useDispatch();
